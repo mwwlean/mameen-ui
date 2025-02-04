@@ -14,72 +14,32 @@
 </head>
 
 <body>
-        <div class="space-y-4 flex flex-col items-center mt-10">
-                <button
-                        class="bg-blue-700 text-white font-semibold py-2 px-6 rounded-md hover:bg-blue-900 transition duration-1000 ease-out cursor-pointer">
-                        <!--button class here-->
-                        Default
-                </button>
-                <button
-                        class="border border-zinc-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-zinc-600 transition duration-300 ease-out cursor-pointer">
-                        <!--button class here-->
-                        Outline
-                </button>
-                <button
-                        class="font-[Inter] bg-[#1C2FAE] font-semibold text-white px-12 py-2 rounded-full hover:bg-[#132285] transition duration-1000 ease-out cursor-pointer">
-                        <!--button class here-->
-                        Pills
-                </button>
-                <button
-                        class="font-[Inter] bg-[#A62921] font-semibold text-white px-6 py-2 rounded-md hover:bg-[#7C1D17] transition duration-1000 ease-out cursor-pointer">
-                        <!--button class here-->
-                        Destructive
-                </button>
-                <button
-                        class="text-white font-semibold py-2 px-6 rounded-md hover:bg-zinc-600 transition duration-300 ease-out cursor-pointer">
-                        <!--button class here-->
-                        Ghost
-                </button>
-                <button
-                        class=" text-white font-semibold py-2 px-2 rounded-md bg-zinc-900 hover:bg-zinc-600 transition duration-300 ease-out cursor-pointer">
-                        <!--button class here-->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-chevron-left">
-                                <path d="m15 18-6-6 6-6" />
-                        </svg>
-                </button>
-                <a class=""> <!--button class here-->
-                        Link
-                </a>
-                <button class=""> <!--button class here-->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                class="lucide lucide-mail">
-                                <rect width="20" height="16" x="2" y="4" rx="2" />
-                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-                        </svg>
-                        Login with Email
-                </button>
-                <div class="flex-row">
-                        <button
-                                class="bg-[#49A773] py-3 px-4 font-semibold rounded-md text-sm hover:bg-[#3E9163] transition duration-200 ease-out cursor-pointer mr-2">
-                                Success
-                        </button>
-                        <button
-                                class="bg-[#08B2FF] py-3 px-4 font-semibold rounded-md text-sm hover:bg-[#069ADE] transition duration-200 ease-out cursor-pointer mr-2">
-                                Info
-                        </button>
-                        <button
-                                class="bg-[#FEC109] py-3 px-4 font-semibold rounded-md text-sm hover:bg-[#DDA807] transition duration-200 ease-out cursor-pointer mr-2">
-                                Warning
-                        </button>
-                        <button
-                                class="bg-[#E95E5E] py-3 px-4 font-semibold rounded-md text-sm hover:bg-[#DD5859] transition duration-200 ease-out cursor-pointer mr-2">
-                                Error
-                        </button>
+        <div class="grid grid-cols-3">
+                <div class="bg-white min-h-screen">
+                        <div>Light Mode</div>
+                        <div class="space-y-4 flex flex-col items-center mt-10">
+                                <span class="px-2 py-1 text-xs font-medium">Badge</span>
+                                <!--Other Light Badges-->
+                                <span class=""></span>
+                        </div>
+                </div>
+                <div class="bg-black min-h-screen">
+                        <div class="dark:text-white">Dark Mode</div>
+                        <div class="space-y-4 flex flex-col items-center mt-10">
+                                <span class="px-2 py-1 text-xs font-medium dark:text-white">Badge</span>
+                                <!--Other Dark Badges-->
+                                <span class=""></span>
+                        </div>
+                </div>
+                <div class="bg-zinc-800 min-h-screen">
+                        <div class="dark:text-white">Default Badge</div>
+                        <div class="space-y-4 flex flex-col items-center mt-10">
+                                <span class="px-2 py-1 text-xs font-medium">Badge</span>
+                                <!--Other Default Badges-->
+                                <span class=""></span>
+                        </div>
                 </div>
         </div>
-</body>
+        </body>
 
 </html>
