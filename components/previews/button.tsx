@@ -15,7 +15,7 @@ export function ButtonOutline(){
       <button className="border border-zinc-200 text-lg text-black font-semibold py-2 px-6 rounded-md hover:bg-zinc-200 transition duration-300 ease-out cursor-pointer dark:border-zinc-600 dark:text-white dark:hover:bg-zinc-600 w-full sm:w-auto">
           Outline
       </button>
-      <button className="border border-zinc-200 text-xl text-black font-semibold py-2 px-6 rounded-md hover:bg-zinc-200 transition duration-300 ease-out cursor-pointer dark:border-zinc-600 dark:text-white dark:hover:bg-zinc-600 w-full sm:w-auto">
+      <button className="border border-zinc-200 text-2xl text-black font-semibold py-2 px-6 rounded-md hover:bg-zinc-200 transition duration-300 ease-out cursor-pointer dark:border-zinc-600 dark:text-white dark:hover:bg-zinc-600 w-full sm:w-auto">
           Outline
       </button>
     </div>
